@@ -1,0 +1,16 @@
+# dependencies
+node_modules/
+
+# runtime data — contact form messages (private, never commit)
+data/
+
+# environment secrets
+.env
+.env.*
+
+# OS junk
+.DS_Store
+Thumbs.db
+
+# logs
+*.log
