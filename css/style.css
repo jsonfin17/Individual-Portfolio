@@ -35,6 +35,10 @@ nav{position:fixed;top:0;left:0;right:0;z-index:50;background:rgba(247,242,232,.
 .nav-links a{color:var(--muted);text-decoration:none;font-size:.82rem;letter-spacing:.14em;text-transform:uppercase;font-family:'Source Serif 4',serif;transition:color .2s}
 .nav-links a:hover{color:var(--accent)}
 .nav-toggle{display:none;position:relative;width:30px;height:20px;padding:0;border:none;background:none;cursor:pointer;flex-shrink:0}
+.nav-toggle span{position:absolute;left:0;width:100%;height:2px;background:var(--ink);border-radius:1px;transition:transform .25s ease,opacity .2s ease}
+.nav-toggle span:nth-child(1){top:0}
+.nav-toggle span:nth-child(2){top:9px}
+.nav-toggle span:nth-child(3){top:18px}
 .nav-toggle.active span:nth-child(1){top:9px;transform:rotate(45deg)}
 .nav-toggle.active span:nth-child(2){opacity:0}
 .nav-toggle.active span:nth-child(3){top:9px;transform:rotate(-45deg)}
